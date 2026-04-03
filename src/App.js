@@ -12,6 +12,7 @@ import UseEffect3 from './Hooks/useEffect/useEffectEx3'
 import GetAndPost from './fakeAPis/getAndPost';
 import GetDeletePut from './fakeAPis/getDeletePut';
 import Index from './todoList/index'
+import ContextTest from './Hooks/useContext/index'
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,7 @@ function App() {
       <UseEffectEx1 />
       <UseEffectEx2 />
       <UseEffect3 />
+      <ContextTest />
 
        
     </div>
